@@ -17,3 +17,5 @@ user.click()
 school_box = driver.find_element_by_name("sch")
 
 center_box = driver.find_element_by_name("cno")
+
+sumbmit_button = driver.find_element_by_name("B2")
