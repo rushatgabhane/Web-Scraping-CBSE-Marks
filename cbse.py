@@ -32,4 +32,4 @@ for i in range(669):
 	roll_number += 1
 driver.quit()
 end = time.time()
-print("Time elapsed: ", end - start)
+print("Time elapsed (s): ", end - start)
