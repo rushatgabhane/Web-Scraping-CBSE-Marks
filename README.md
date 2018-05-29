@@ -1,4 +1,4 @@
-## web scrape CBSE 12th marks
+## WebScrape CBSE 12th marks
 ### Used for Educational purposes only.
 - Creating Graphs
-- Analysing data 
+- Analysing data etc
