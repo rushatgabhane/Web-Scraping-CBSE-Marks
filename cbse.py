@@ -6,15 +6,18 @@ import xlwt
 start = time.time()
 driver = webdriver.Chrome()
 book = xlwt.Workbook(encoding="utf-8")
-sheet1=book.add_sheet("Python Sheet 1")
-school_number = '72511'
-center_number = '8801'
-roll_number = 9100001
+sheet1 = book.add_sheet("Python Sheet 1")
 
-j = 0
-for i in range(669):
+#initialize accordingly
+school_number = 0000
+center_number = 0000
+roll_number = 000000
+max_roll_number = 000000
+
+j = 0 #ignore
+for i in range(max_roll_number):
 	driver.get('http://cbseresults.nic.in/class12zpq/class12th18.htm')
-	time.sleep(1.5)
+	time.sleep(1.5)  #select wait time as per your internet speed
 	roll_box = driver.find_element_by_name("regno").send_keys(roll_number)
 	school_box = driver.find_element_by_name("sch").send_keys(school_number)
 	center_box = driver.find_element_by_name("cno").send_keys(center_number)
